@@ -18,5 +18,8 @@ matrix:
     - node_js: 10
       env: TASK=build
 
+install:
+  - yarn --ignore-scripts
+
 script:
   - yarn run $TASK
