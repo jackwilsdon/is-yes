@@ -16,7 +16,7 @@
   "scripts": {
     "test": "jest",
     "test:watch": "jest --watch",
-    "lint": "prettier-check \"**/*.js\"",
+    "lint": "prettier-check \"**/*.js\" \"!**/*.min.js\"",
     "build": "uglifyjs index.js -c -m -o index.min.js",
     "prepare": "npm run build"
   },
