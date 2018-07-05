@@ -1,4 +1,4 @@
-# is-yes
+# is-yes ![NPM Version] [![Build Status]][Travis CI]
 
 Is it yes?
 
@@ -32,3 +32,7 @@ console.log(isYes('no'));  // false
 * true
 
 > **Note:** these are all case-insensitive.
+
+[NPM Version]: https://img.shields.io/npm/v/is-yes.svg
+[Build Status]: https://img.shields.io/travis/jackwilsdon/is-yes.svg
+[Travis CI]: https://travis-ci.org/jackwilsdon/is-yes
