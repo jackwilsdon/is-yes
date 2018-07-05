@@ -1,0 +1,4 @@
+/.prettierrc
+/yarn.lock
+*.js
+!*.min.js

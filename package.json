@@ -1,0 +1,22 @@
+{
+  "name": "is-yes",
+  "version": "1.0.0",
+  "description": "Is it yes?",
+  "main": "index.min.js",
+  "repository": "git@github.com:jackwilsdon/is-yes",
+  "author": "Jack Wilsdon <jack.wilsdon@gmail.com>",
+  "license": "AGPL-3.0",
+  "scripts": {
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "lint": "prettier-check \"**/*.js\"",
+    "build": "uglifyjs index.js -c -m -o index.min.js",
+    "prepare": "npm run build"
+  },
+  "devDependencies": {
+    "jest": "^23.3.0",
+    "prettier": "^1.13.7",
+    "prettier-check": "^2.0.0",
+    "uglify-js": "^3.4.3"
+  }
+}
