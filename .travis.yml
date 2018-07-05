@@ -19,7 +19,9 @@ matrix:
       env: TASK=build
 
 install:
+  - if [[ "$TASK" == "test" ]]; then yarn global add codecov; fi
   - yarn --ignore-scripts
 
 script:
   - yarn run $TASK
+  - if [[ "$TASK" == "test" ]]; then codecov; fi
