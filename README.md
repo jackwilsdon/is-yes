@@ -1,4 +1,4 @@
-# is-yes ![NPM Version] ![Node Version] [![Build Status]][Travis CI] ![Coverage]
+# is-yes [![NPM Version Badge]][NPM] ![Node Version] [![Build Status Badge]][Travis CI] [![Coverage Badge]][Coverage]
 
 Is it yes?
 
@@ -33,8 +33,10 @@ console.log(isYes('no'));  // false
 
 > **Note:** strings are case-insensitive.
 
-[NPM Version]: https://img.shields.io/npm/v/is-yes.svg
-[Node Version]: https://img.shields.io/node/v/is-yes.svg
-[Build Status]: https://img.shields.io/travis/jackwilsdon/is-yes.svg
+[NPM Version Badge]: https://img.shields.io/npm/v/is-yes.svg
+[NPM]: https://npmjs.com/package/is-yes
+[Node Version Badge]: https://img.shields.io/node/v/is-yes.svg
+[Build Status Badge]: https://img.shields.io/travis/jackwilsdon/is-yes.svg
 [Travis CI]: https://travis-ci.org/jackwilsdon/is-yes
-[Coverage]: https://img.shields.io/codecov/c/github/jackwilsdon/is-yes.svg
+[Coverage Badge]: https://img.shields.io/codecov/c/github/jackwilsdon/is-yes.svg
+[Coverage]: https://codecov.io/gh/jackwilsdon/is-yes
