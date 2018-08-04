@@ -5,6 +5,8 @@ module.exports = function(value) {
       : value;
 
   return (
+    lowerCaseValue === 1 ||
+    lowerCaseValue === true ||
     lowerCaseValue === 'yes' ||
     lowerCaseValue === 'y' ||
     lowerCaseValue === '1' ||

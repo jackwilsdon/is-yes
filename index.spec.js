@@ -1,10 +1,14 @@
 var isYes = require('.');
 
 it.each([
+  [1, true],
+  [true, true],
   ['yes', true],
   ['y', true],
   ['1', true],
   ['true', true],
+  [0, false],
+  [false, false],
   ['no', false],
   [{}, false],
   [undefined, false],

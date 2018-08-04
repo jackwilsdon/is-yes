@@ -26,12 +26,12 @@ console.log(isYes('no'));  // false
 
 ## What counts as "yes"?
 
-* yes
-* y
-* 1
-* true
+* `"yes"`
+* `"y"`
+* `"1"` or `1`
+* `"true"` or `true`
 
-> **Note:** these are all case-insensitive.
+> **Note:** strings are case-insensitive.
 
 [NPM Version]: https://img.shields.io/npm/v/is-yes.svg
 [Node Version]: https://img.shields.io/node/v/is-yes.svg
