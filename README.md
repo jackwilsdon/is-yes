@@ -31,7 +31,7 @@ console.log(isYes('no'));  // false
 * `"1"` or `1`
 * `"true"` or `true`
 
-> **Note:** strings are case-insensitive.
+**Note:** strings are case-insensitive.
 
 [NPM Version Badge]: https://img.shields.io/npm/v/is-yes.svg
 [NPM]: https://npmjs.com/package/is-yes
