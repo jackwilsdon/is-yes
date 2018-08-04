@@ -1,4 +1,4 @@
-# is-yes [![NPM Version Badge]][NPM] ![Node Version] [![Build Status Badge]][Travis CI] [![Coverage Badge]][Coverage]
+# is-yes [![NPM Version Badge]][NPM] ![Node Version Badge] [![Build Status Badge]][Travis CI] [![Coverage Badge]][Coverage]
 
 Is it yes?
 
